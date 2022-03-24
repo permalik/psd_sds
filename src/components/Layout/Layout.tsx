@@ -1,10 +1,12 @@
+import SiteFooter from '../SiteFooter';
 import SiteHeader from '../SiteHeader';
 
-export function Layout({children}:{[key:string]:any}) {
+export function Layout({children}: { [key: string]: any }) {
 	return (
 		<>
 			<SiteHeader/>
 			<main>{children}</main>
+			<SiteFooter/>
 		</>
 	);
 }

@@ -10,27 +10,27 @@ export function SiteHeader() {
 				</button>
 			</Link>
 			<nav>
-				<Link href={'/work'} passHref>
+				<Link href={'/#work-section'} passHref>
 					<button>
 						work
 					</button>
 				</Link>
-				<Link href={'/about'} passHref>
+				<Link href={'/#about-section'} passHref>
 					<button>
 						about
 					</button>
 				</Link>
-				<Link href={'/services'} passHref>
+				<Link href={'/#services-section'} passHref>
 					<button>
 						services
 					</button>
 				</Link>
-				<Link href={'/blog'} passHref>
+				<Link href={'/#blog-section'} passHref>
 					<button>
 						blog
 					</button>
 				</Link>
-				<Link href={'/contact'} passHref>
+				<Link href={'/#contact-section'} passHref>
 					<button>
 						contact
 					</button>
@@ -38,6 +38,7 @@ export function SiteHeader() {
 			</nav>
 			<button>
 				<Image
+					alt={'magnifying glass icon'}
 					height={30}
 					src={'/noun-magnifying-glass-2921543.svg'}
 					width={30}

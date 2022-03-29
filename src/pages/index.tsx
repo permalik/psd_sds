@@ -13,6 +13,7 @@ export default function Index() {
 			<h1>
 				Home Page
 			</h1>
+
 			<Link href={'/about'}>
 				<a>
 					About

@@ -5,35 +5,35 @@ export function SiteHeader() {
 	return (
 		<header>
 			<Link href={'/'} passHref>
-				<button>
+				<a>
 					SDS
-				</button>
+				</a>
 			</Link>
 			<nav>
 				<Link href={'/#work-section'} passHref>
-					<button>
+					<a>
 						work
-					</button>
+					</a>
 				</Link>
 				<Link href={'/#about-section'} passHref>
-					<button>
+					<a>
 						about
-					</button>
+					</a>
 				</Link>
 				<Link href={'/#services-section'} passHref>
-					<button>
+					<a>
 						services
-					</button>
+					</a>
 				</Link>
 				<Link href={'/#blog-section'} passHref>
-					<button>
+					<a>
 						blog
-					</button>
+					</a>
 				</Link>
 				<Link href={'/#contact-section'} passHref>
-					<button>
+					<a>
 						contact
-					</button>
+					</a>
 				</Link>
 			</nav>
 			<button>

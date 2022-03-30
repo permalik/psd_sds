@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Index() {
@@ -13,12 +12,6 @@ export default function Index() {
 			<h1>
 				Home Page
 			</h1>
-
-			<Link href={'/about'}>
-				<a>
-					About
-				</a>
-			</Link>
 		</div>
 	);
 }

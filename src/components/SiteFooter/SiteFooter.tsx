@@ -6,30 +6,30 @@ export function SiteFooter() {
 		<footer>
 			<section>
 				<nav>
-					<Link href={'work'} passHref>
-						<button>
+					<Link href={'#work-section'} passHref>
+						<a>
 							work
-						</button>
+						</a>
 					</Link>
-					<Link href={'about'} passHref>
-						<button>
+					<Link href={'#about-section'} passHref>
+						<a>
 							about
-						</button>
+						</a>
 					</Link>
-					<Link href={'services'} passHref>
-						<button>
+					<Link href={'#services-section'} passHref>
+						<a>
 							services
-						</button>
+						</a>
 					</Link>
-					<Link href={'blog'} passHref>
-						<button>
+					<Link href={'#blog-section'} passHref>
+						<a>
 							blog
-						</button>
+						</a>
 					</Link>
-					<Link href={'contact'} passHref>
-						<button>
+					<Link href={'#contact-section'} passHref>
+						<a>
 							contact
-						</button>
+						</a>
 					</Link>
 				</nav>
 				<div>

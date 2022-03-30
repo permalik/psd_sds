@@ -6,7 +6,7 @@ describe('Navigation', () => {
 		cy.visit('http://localhost:3000/');
 
 		// Locate link with href={'/'} and click
-		cy.get('a[href*="#work-section"]').click();
+		cy.get('a[href*="#work-section"]').click({ multiple: true });
 
 		// The new url should include "/"
 		cy.url().should('include', '#work-section');
@@ -22,7 +22,7 @@ describe('Navigation', () => {
 		cy.visit('http://localhost:3000/');
 
 		// Locate link with href={'/'} and click
-		cy.get('a[href*="#about-section"]').click();
+		cy.get('a[href*="#about-section"]').click({ multiple: true });
 
 		// The new url should include "/"
 		cy.url().should('include', '#about-section');
@@ -38,7 +38,7 @@ describe('Navigation', () => {
 		cy.visit('http://localhost:3000/');
 
 		// Locate link with href={'/'} and click
-		cy.get('a[href*="#services-section"]').click();
+		cy.get('a[href*="#services-section"]').click({ multiple: true });
 
 		// The new url should include "/"
 		cy.url().should('include', '#services-section');
@@ -54,7 +54,7 @@ describe('Navigation', () => {
 		cy.visit('http://localhost:3000/');
 
 		// Locate link with href={'/'} and click
-		cy.get('a[href*="#blog-section"]').click();
+		cy.get('a[href*="#blog-section"]').click({ multiple: true });
 
 		// The new url should include "/"
 		cy.url().should('include', '#blog-section');
@@ -70,7 +70,7 @@ describe('Navigation', () => {
 		cy.visit('http://localhost:3000/');
 
 		// Locate link with href={'/'} and click
-		cy.get('a[href*="#contact-section"]').click();
+		cy.get('a[href*="#contact-section"]').click({ multiple: true });
 
 		// The new url should include "/"
 		cy.url().should('include', '#contact-section');

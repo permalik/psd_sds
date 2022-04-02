@@ -5,9 +5,7 @@ export default function Hero() {
 				<h1>title of the page</h1>
 				<p>subtitle</p>
 			</header>
-			<p>Varius aonides sed mire promissios genetrix est. Exsuls credere in
-				vierium! Cum advena peregrinationes, omnes abaculuses pugna emeritis,
-				albus nuptiaes.</p>
+			<p>Varius aonides sed mire promissios genetrix</p>
 			<button>
 				button
 			</button>

@@ -1,10 +1,12 @@
 import Head from 'next/head';
 
 import Hero from '../components/Hero';
+import ServiceCard from '../components/ServiceCard';
 
 import styles from '../styles/Home.module.css';
 
 export default function Index() {
+
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -13,6 +15,7 @@ export default function Index() {
 				<link rel="icon" href="/favicon.ico"/>
 			</Head>
 			<Hero/>
+			<ServiceCard {} />
 		</div>
 	);
 }

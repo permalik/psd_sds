@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import Hero from '../components/Hero';
+import QuoteSection from '../components/QuoteSection/QuoteSection';
 import ServiceSection from '../components/ServiceSection/ServiceSection';
 
 import styles from '../styles/Home.module.css';
@@ -16,6 +17,7 @@ export default function Index() {
 			</Head>
 			<Hero/>
 			<ServiceSection/>
+			<QuoteSection/>
 		</div>
 	);
 }

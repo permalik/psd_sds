@@ -1,4 +1,4 @@
-export default function ServiceCard(props) {
+export default function ServiceCard(props: { serviceTitle: any; serviceSummary: any; serviceButton: any; }) {
 	const serviceTitle = props.serviceTitle;
 	const serviceSummary = props.serviceSummary;
 	const serviceButton = props.serviceButton;

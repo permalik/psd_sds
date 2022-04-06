@@ -8,7 +8,7 @@ describe('ServiceSection', () => {
 
 		const photos = screen.getByRole('heading', {
 			name: /photos/i,
-		})
+		});
 
 		expect(photos).toBeInTheDocument();
 	});
@@ -20,7 +20,7 @@ describe('ServiceSection', () => {
 
 		const videos = screen.getByRole('heading', {
 			name: /videos/i,
-		})
+		});
 
 		expect(videos).toBeInTheDocument();
 	});
@@ -32,8 +32,18 @@ describe('ServiceSection', () => {
 
 		const downloads = screen.getByRole('heading', {
 			name: /downloads/i,
-		})
+		});
 
 		expect(downloads).toBeInTheDocument();
+	});
+});
+
+describe('ServiceSection', () => {
+	it('renders a paragraph', () => {
+		render(<ServiceSection />);
+
+		const paragraph = screen.getByText('Varius aonides sed mire promissios genetrix');
+
+		expect(paragraph).toBeInTheDocument();
 	});
 });

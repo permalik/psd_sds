@@ -8,7 +8,7 @@ export default function ServiceCard(props: { serviceTitle: any; serviceSummary: 
 			<div>
 				<img />
 			</div>
-			<h2>{serviceTitle}</h2>
+			<h3>{serviceTitle}</h3>
 			<p>{serviceSummary}</p>
 			<button>{serviceButton}</button>
 		</article>

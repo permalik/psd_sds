@@ -67,3 +67,39 @@ describe('ServiceSection', () => {
 		expect(paragraphThree).toBeInTheDocument();
 	});
 });
+
+describe('Hero', () => {
+	it('renders a button', () => {
+		render(<ServiceSection />);
+
+		const button1 = screen.getByRole('button', {
+			name: /button1/i,
+		});
+
+		expect(button1).toBeInTheDocument();
+	});
+});
+
+describe('Hero', () => {
+	it('renders a button', () => {
+		render(<ServiceSection />);
+
+		const button2 = screen.getByRole('button', {
+			name: /button2/i,
+		});
+
+		expect(button2).toBeInTheDocument();
+	});
+});
+
+describe('Hero', () => {
+	it('renders a button', () => {
+		render(<ServiceSection />);
+
+		const button3 = screen.getByRole('button', {
+			name: /button3/i,
+		});
+
+		expect(button3).toBeInTheDocument();
+	});
+});

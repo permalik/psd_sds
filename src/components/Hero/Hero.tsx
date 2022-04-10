@@ -1,3 +1,6 @@
+import * as React from 'react';
+import Button from '@mui/material/Button';
+
 export default function Hero() {
 	return (
 		<section>
@@ -6,9 +9,12 @@ export default function Hero() {
 				<p>subtitle</p>
 			</header>
 			<p>Varius aonides sed mire promissios genetrix</p>
-			<button>
+			<Button
+				color={'success'}
+				variant={'contained'}
+			>
 				button
-			</button>
+			</Button>
 		</section>
 	);
 };

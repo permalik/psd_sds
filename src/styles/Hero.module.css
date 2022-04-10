@@ -1,0 +1,8 @@
+.heroSection {
+    background: hsl(11, 0%, 29%);
+    color: hsl(0, 0%, 100%);
+}
+
+.title, .subtitle {
+    text-transform: uppercase;
+}

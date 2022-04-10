@@ -10,3 +10,13 @@ describe('Hero', () => {
 		expect(paragraph).toBeInTheDocument();
 	});
 });
+
+describe('Hero', () => {
+	it('renders a paragraph', () => {
+		render(<QuoteSection />);
+
+		const attribute = screen.getByText('Jim Gordon (GCPD)');
+
+		expect(attribute).toBeInTheDocument();
+	});
+});

@@ -47,3 +47,23 @@ describe('ServiceSection', () => {
 		expect(paragraph).toBeInTheDocument();
 	});
 });
+
+describe('ServiceSection', () => {
+	it('renders a paragraph', () => {
+		render(<ServiceSection />);
+
+		const paragraphTwo = screen.getByText('Varius aonides sed mire promissios genetrix varius');
+
+		expect(paragraphTwo).toBeInTheDocument();
+	});
+});
+
+describe('ServiceSection', () => {
+	it('renders a paragraph', () => {
+		render(<ServiceSection />);
+
+		const paragraphThree = screen.getByText('Varius aonides sed mire promissios genetrix varius aonides');
+
+		expect(paragraphThree).toBeInTheDocument();
+	});
+});

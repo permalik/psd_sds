@@ -10,12 +10,12 @@ export default function ServiceSection() {
 			/>
 			<ServiceCard
 				serviceTitle={'videos'}
-				serviceSummary={'Varius aonides sed mire promissios genetrix'}
+				serviceSummary={'Varius aonides sed mire promissios genetrix varius'}
 				serviceButton={'button'}
 			/>
 			<ServiceCard
 				serviceTitle={'downloads'}
-				serviceSummary={'Varius aonides sed mire promissios genetrix'}
+				serviceSummary={'Varius aonides sed mire promissios genetrix varius aonides'}
 				serviceButton={'button'}
 			/>
 		</section>

@@ -1,3 +1,7 @@
+import Button from '@mui/material/Button';
+import * as React from 'react';
+import { theme } from '../../../theme/mui';
+
 export default function BlogCard(props: {blogTitle: any; blogParagraph: any; blogButton: any;}) {
 	const blogTitle = props.blogTitle;
 	const blogParagraph = props.blogParagraph;
@@ -7,7 +11,12 @@ export default function BlogCard(props: {blogTitle: any; blogParagraph: any; blo
 		<article>
 			<h3>{blogTitle}</h3>
 			<p>{blogParagraph}</p>
-			<button>{blogButton}</button>
+			<Button
+				style={{ backgroundColor: theme.palette.secondary.main }}
+				variant={'contained'}
+			>
+				{blogButton}
+			</Button>
 		</article>
 	)
 }

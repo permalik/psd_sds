@@ -7,17 +7,17 @@ export default function BlogSection() {
 			<BlogCard
 				blogTitle={'title of a post'}
 				blogParagraph={'Varius aonides sed mire promissios genetrix'}
-				blogButton={'button'}
+				blogButton={'post1'}
 			/>
 			<BlogCard
 				blogTitle={'title of a post'}
 				blogParagraph={'Varius aonides sed mire promissios genetrix'}
-				blogButton={'button'}
+				blogButton={'post2'}
 			/>
 			<BlogCard
 				blogTitle={'title of a post'}
 				blogParagraph={'Varius aonides sed mire promissios genetrix'}
-				blogButton={'button'}
+				blogButton={'post3'}
 			/>
 		</section>
 	)

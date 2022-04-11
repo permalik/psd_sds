@@ -1,7 +1,16 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
+import { createTheme } from '@mui/material/styles';
 
 import styles from '../../styles/Hero.module.css'
+
+const theme = createTheme({
+	palette: {
+		secondary: {
+			main: '#76D796'
+		}
+	}
+})
 
 export default function Hero() {
 	return (
@@ -12,7 +21,7 @@ export default function Hero() {
 			</header>
 			<p>Varius aonides sed mire promissios genetrix</p>
 			<Button
-				color={'success'}
+				style={{ backgroundColor: theme.palette.secondary.main }}
 				variant={'contained'}
 			>
 				button

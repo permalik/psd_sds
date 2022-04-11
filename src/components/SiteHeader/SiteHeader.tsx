@@ -1,11 +1,13 @@
 import Image from 'next/image';
-import Link from "next/link";
+import Link from 'next/link';
+
+import styles from '../../styles/SiteHeader.module.css';
 
 export function SiteHeader() {
 	return (
-		<header>
+		<header className={styles.header}>
 			<Link href={'/'} passHref>
-				<a>
+				<a className={styles.homeButton}>
 					SDS
 				</a>
 			</Link>

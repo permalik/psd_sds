@@ -1,12 +1,14 @@
 import SiteFooter from '../SiteFooter';
 import SiteHeader from '../SiteHeader';
 
-export function Layout({children}: { [key: string]: any }) {
+import styles from '../../styles/Layout.module.css';
+
+export function Layout({ children }: { [key: string]: any }) {
 	return (
-		<>
-			<SiteHeader/>
+		<div className={styles.container}>
+			<SiteHeader />
 			<main>{children}</main>
-			<SiteFooter/>
-		</>
+			<SiteFooter />
+		</div>
 	);
 }

@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import styles from '../../styles/SiteFooter.module.css';
+
 export function SiteFooter() {
 	return (
-		<footer>
+		<footer className={styles.siteFooter}>
 			<section>
 				<nav>
 					<Link href={'#work-section'} passHref>

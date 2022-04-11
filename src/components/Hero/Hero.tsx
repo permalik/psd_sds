@@ -1,16 +1,8 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
-import { createTheme } from '@mui/material/styles';
 
-import styles from '../../styles/Hero.module.css'
-
-const theme = createTheme({
-	palette: {
-		secondary: {
-			main: '#76D796'
-		}
-	}
-})
+import styles from '../../styles/Hero.module.css';
+import { theme } from '../../../theme/mui';
 
 export default function Hero() {
 	return (

@@ -1,5 +1,7 @@
 .siteFooter {
     background: hsl(11, 0%, 29%);
     color: hsl(0, 0%, 100%);
-    grid-area: footer;
+    grid-column-start: second;
+    grid-row-start: sub;
+    grid-row-end: end;
 }

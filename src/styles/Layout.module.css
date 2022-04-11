@@ -1,7 +1,10 @@
 .container {
     display: grid;
-    grid-template-areas:
-            'header' 'main'
-            'footer' 'footer'
-;
+    grid-template-columns: [first] 15% [second] 85%;
+    grid-template-rows: [main] 1fr [sub] 10% [end];
+}
+
+.main {
+    grid-column-start: second;
+    grid-row-start: main;
 }

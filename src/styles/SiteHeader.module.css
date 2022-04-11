@@ -1,9 +1,12 @@
 .header {
     background: hsl(0, 0%, 15%);
     color: hsl(0, 0%, 100%);
-    grid-area: header;
+    grid-column-start: first;
+    grid-row-start: main;
+    grid-row-end: end;
 }
 
 .homeButton {
     color: hsl(140, 45%, 65%);
 }
+

@@ -7,7 +7,7 @@ export function Layout({ children }: { [key: string]: any }) {
 	return (
 		<div className={styles.container}>
 			<SiteHeader />
-			<main>{children}</main>
+			<main className={styles.main}>{children}</main>
 			<SiteFooter />
 		</div>
 	);

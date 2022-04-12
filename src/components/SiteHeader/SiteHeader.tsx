@@ -13,34 +13,35 @@ export function SiteHeader() {
 			</Link>
 			<nav className={styles.navSection}>
 				<Link href={'/#work-section'} passHref>
-					<a>
+					<a className={styles.siteHeaderNavLink}>
 						work
 					</a>
 				</Link>
 				<Link href={'/#about-section'} passHref>
-					<a>
+					<a className={styles.siteHeaderNavLink}>
 						about
 					</a>
 				</Link>
 				<Link href={'/#services-section'} passHref>
-					<a>
+					<a className={styles.siteHeaderNavLink}>
 						services
 					</a>
 				</Link>
 				<Link href={'/#blog-section'} passHref>
-					<a>
+					<a className={styles.siteHeaderNavLink}>
 						blog
 					</a>
 				</Link>
 				<Link href={'/#contact-section'} passHref>
-					<a>
+					<a className={styles.siteHeaderNavLink}>
 						contact
 					</a>
 				</Link>
 			</nav>
-			<button>
+			<button className={styles.searchButton}>
 				<Image
 					alt={'magnifying glass icon'}
+					className={styles.searchButtonImage}
 					height={30}
 					src={'/noun-magnifying-glass-2921543.svg'}
 					width={30}

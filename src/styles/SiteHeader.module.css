@@ -1,6 +1,9 @@
 .header {
+    align-items: center;
     background: hsl(0, 0%, 15%);
     color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-flow: column nowrap;
     grid-column-start: first;
     grid-row-start: main;
     grid-row-end: end;
@@ -8,9 +11,42 @@
 
 .homeButton {
     color: hsl(140, 45%, 65%);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.homeButton::after {
+    border-bottom: 2px solid #76D796;
+    bottom: 0;
+    color: #76D796;
+    content: '';
+    left: 25%;
+    position: absolute;
+    width: 50%;
 }
 
 .navSection {
+    align-items: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
     display: flex;
     flex-flow: column nowrap;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+
+.siteHeaderNavLink {
+    text-transform: uppercase;
+}
+
+.searchButton {
+    align-items: center;
+    background: transparent;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.searchButtonImage {
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
 }

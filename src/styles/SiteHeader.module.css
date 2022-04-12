@@ -7,11 +7,13 @@
     grid-column-start: first;
     grid-row-start: main;
     grid-row-end: end;
+    padding: 2rem 0;
 }
 
 .homeButton {
     color: hsl(140, 45%, 65%);
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
     position: relative;
 }
 
@@ -31,12 +33,17 @@
     border-top: 1px solid #747474;
     display: flex;
     flex-flow: column nowrap;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     padding: 1rem 0;
 }
 
 .siteHeaderNavLink {
+    margin-bottom: 1rem;
     text-transform: uppercase;
+}
+
+.siteHeaderNavLink:last-of-type {
+    margin-bottom: 0;
 }
 
 .searchButton {

@@ -3,6 +3,10 @@
     color: hsl(0, 0%, 100%);
 }
 
+.title {
+    margin: 0;
+}
+
 .title, .subtitle {
     text-transform: uppercase;
 }

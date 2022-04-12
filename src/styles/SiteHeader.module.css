@@ -42,11 +42,12 @@
 .searchButton {
     align-items: center;
     background: transparent;
+    border: none;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
 }
 
 .searchButtonImage {
-    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    filter: invert(100%) sepia(0%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
 }

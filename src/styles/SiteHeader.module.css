@@ -10,3 +10,7 @@
     color: hsl(140, 45%, 65%);
 }
 
+.navSection {
+    display: flex;
+    flex-flow: column nowrap;
+}

@@ -11,7 +11,7 @@ export function SiteHeader() {
 					SDS
 				</a>
 			</Link>
-			<nav>
+			<nav className={styles.navSection}>
 				<Link href={'/#work-section'} passHref>
 					<a>
 						work

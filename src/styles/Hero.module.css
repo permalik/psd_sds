@@ -1,9 +1,29 @@
 .heroSection {
+    align-items: center;
     background: hsl(11, 0%, 29%);
     color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.header {
+    position: relative;
+}
+
+.header::before {
+    border-top: 2px solid #76D796;
+    color: #76D796;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: -.5rem;
+    width: 10%;
 }
 
 .title {
+    font-size: 2rem;
     margin: 0;
 }
 

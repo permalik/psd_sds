@@ -1,7 +1,7 @@
 .header {
     align-items: center;
     background: hsl(0, 0%, 15%);
-    color: hsl(0, 0%, 100%);
+    color: #C3C3C3;
     display: flex;
     flex-flow: column nowrap;
     grid-column-start: first;
@@ -27,8 +27,8 @@
 
 .navSection {
     align-items: center;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+    border-bottom: 1px solid #747474;
+    border-top: 1px solid #747474;
     display: flex;
     flex-flow: column nowrap;
     margin-bottom: 1rem;

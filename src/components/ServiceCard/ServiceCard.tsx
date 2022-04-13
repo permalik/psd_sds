@@ -19,9 +19,10 @@ export default function ServiceCard(props: {
 
 	return (
 		<article className={styles.serviceCard}>
-			<div>
+			<div className={styles.serviceImgContainer}>
 				<img
 					alt={serviceImgAlt}
+					className={styles.serviceImg}
 					src={serviceImg}
 				/>
 			</div>
@@ -29,7 +30,10 @@ export default function ServiceCard(props: {
 			<p className={styles.serviceDescription}>{serviceSummary}</p>
 			<Button
 				variant={'contained'}
-				style={{ backgroundColor: theme.palette.secondary.main }}
+				style={{
+					backgroundColor: theme.palette.secondary.main,
+					borderRadius: '25px',
+					padding: '.5rem 2rem',}}
 			>
 				{serviceButton}
 			</Button>

@@ -4,8 +4,23 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    padding: 1rem 2rem;
+    padding: 7rem 2rem 2rem;
+    position: relative;
     text-align: center;
+}
+
+.serviceImgContainer {
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    padding: 1.5rem;
+    position: absolute;
+    top: -3rem;
+}
+
+.serviceImg {
+    filter: invert(45%) sepia(90%) saturate(135%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    width: 5rem;
 }
 
 .serviceHeading {

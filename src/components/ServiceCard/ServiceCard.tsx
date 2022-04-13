@@ -4,8 +4,14 @@ import { theme } from '../../../theme/mui';
 
 import styles from '../../styles/ServiceCard.module.css';
 
-export default function ServiceCard(props: { serviceImg: any; serviceTitle: any; serviceSummary: any; serviceButton: any; }) {
-	const
+export default function ServiceCard(props: {
+	serviceImgAlt: any;
+	serviceImg: any;
+	serviceTitle: any;
+	serviceSummary: any;
+	serviceButton: any;
+}) {
+	const serviceImgAlt = props.serviceImgAlt;
 	const serviceImg = props.serviceImg;
 	const serviceTitle = props.serviceTitle;
 	const serviceSummary = props.serviceSummary;

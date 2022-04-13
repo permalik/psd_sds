@@ -4,7 +4,9 @@ import { theme } from '../../../theme/mui';
 
 import styles from '../../styles/ServiceCard.module.css';
 
-export default function ServiceCard(props: { serviceTitle: any; serviceSummary: any; serviceButton: any; }) {
+export default function ServiceCard(props: { serviceImg: any; serviceTitle: any; serviceSummary: any; serviceButton: any; }) {
+	const
+	const serviceImg = props.serviceImg;
 	const serviceTitle = props.serviceTitle;
 	const serviceSummary = props.serviceSummary;
 	const serviceButton = props.serviceButton;
@@ -12,7 +14,10 @@ export default function ServiceCard(props: { serviceTitle: any; serviceSummary: 
 	return (
 		<article className={styles.serviceCard}>
 			<div>
-				<img />
+				<img
+					alt={serviceImgAlt}
+					src={serviceImg}
+				/>
 			</div>
 			<h3 className={styles.serviceHeading}>{serviceTitle}</h3>
 			<p className={styles.serviceDescription}>{serviceSummary}</p>

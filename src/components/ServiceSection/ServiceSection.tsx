@@ -1,16 +1,18 @@
 import ServiceCard from '../ServiceCard';
 
+import styles from '../../styles/ServiceSection.module.css'
+
 export default function ServiceSection() {
 	return (
-		<section>
+		<section className={styles.serviceSection}>
 			<ServiceCard
 				serviceTitle={'photos'}
-				serviceSummary={'Varius aonides sed mire promissios genetrix'}
+				serviceSummary={'Varius aonides sed mire promissios genetrix varius varius'}
 				serviceButton={'button1'}
 			/>
 			<ServiceCard
 				serviceTitle={'videos'}
-				serviceSummary={'Varius aonides sed mire promissios genetrix varius'}
+				serviceSummary={'Varius aonides sed mire promissios genetrix genetrix genetrix'}
 				serviceButton={'button2'}
 			/>
 			<ServiceCard

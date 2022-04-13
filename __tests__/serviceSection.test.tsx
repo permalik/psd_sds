@@ -42,7 +42,7 @@ describe('ServiceSection', () => {
 	it('renders a paragraph', () => {
 		render(<ServiceSection />);
 
-		const paragraph = screen.getByText('Varius aonides sed mire promissios genetrix');
+		const paragraph = screen.getByText('Varius aonides sed mire promissios genetrix varius varius');
 
 		expect(paragraph).toBeInTheDocument();
 	});
@@ -52,7 +52,7 @@ describe('ServiceSection', () => {
 	it('renders a paragraph', () => {
 		render(<ServiceSection />);
 
-		const paragraphTwo = screen.getByText('Varius aonides sed mire promissios genetrix varius');
+		const paragraphTwo = screen.getByText('Varius aonides sed mire promissios genetrix genetrix genetrix');
 
 		expect(paragraphTwo).toBeInTheDocument();
 	});

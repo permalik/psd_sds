@@ -1,0 +1,18 @@
+.serviceCard {
+    align-items: center;
+    background: #E1E1E1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.serviceHeading {
+    margin: 0 0 2rem;
+    text-transform: uppercase;
+}
+
+.serviceDescription {
+    margin: 0 0 2rem;
+}

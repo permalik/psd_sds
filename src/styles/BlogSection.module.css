@@ -1,0 +1,30 @@
+.blogSection {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.container {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.blogHeading {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.blogHeading::before {
+    border-top: 2px solid #76D796;
+    color: #76D796;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: -.5rem;
+    width: 15%;
+}

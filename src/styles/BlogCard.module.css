@@ -1,0 +1,15 @@
+.blogArticle {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.blogImg {
+    margin-right: 2rem;
+    width: 30rem;
+}
+
+.blogTitle {
+    text-transform: uppercase;
+}

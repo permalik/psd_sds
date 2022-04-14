@@ -42,30 +42,30 @@ export function SiteFooter() {
 				<nav>
 					<Link href={'#'} passHref>
 						<button>
-							<Image
+							<img
 								alt={'facebook icon'}
 								height={50}
-								src={'/vercel.svg'}
+								src={'https://res.cloudinary.com/permalik/image/upload/v1649965535/icon_facebook.svg'}
 								width={50}
 							/>
 						</button>
 					</Link>
 					<Link href={'#'} passHref>
 						<button>
-							<Image
+							<img
 								alt={'twitter icon'}
 								height={50}
-								src={'/vercel.svg'}
+								src={'https://res.cloudinary.com/permalik/image/upload/v1649965536/icon_twitter.svg'}
 								width={50}
 							/>
 						</button>
 					</Link>
 					<Link href={'#'} passHref>
 						<button>
-							<Image
+							<img
 								alt={'instagram icon'}
 								height={50}
-								src={'/vercel.svg'}
+								src={'https://res.cloudinary.com/permalik/image/upload/v1649965536/icon_ig.svg'}
 								width={50}
 							/>
 						</button>

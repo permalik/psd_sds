@@ -12,7 +12,7 @@ export default function Hero() {
 					<h1 className={styles.title}>title of the page</h1>
 					<p className={styles.subtitle}>subtitle</p>
 				</header>
-				<p>Varius aonides sed mire promissios genetrix</p>
+				<p className={styles.heroDescription}>Varius aonides sed mire promissios genetrix</p>
 				<Button
 					style={{
 						backgroundColor: theme.palette.secondary.main,

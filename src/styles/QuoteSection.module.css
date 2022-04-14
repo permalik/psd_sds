@@ -1,0 +1,28 @@
+.quoteSection {
+    align-items: center;
+    background: hsl(11, 0%, 29%);
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.quoteContainer {
+    background-image: url('https://res.cloudinary.com/permalik/image/upload/c_scale,w_150/v1649957822/quote_svg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12rem;
+}
+
+.quoteIcon {
+    filter: invert(45%) sepia(90%) saturate(135%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    width: 3rem;
+}
+
+.quoteDescription {
+    color: white;
+    margin-top: 0;
+}
+
+.quoteCredit {
+    color: #C3C3C3;
+}

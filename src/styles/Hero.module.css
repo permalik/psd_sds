@@ -30,3 +30,7 @@
 .title, .subtitle {
     text-transform: uppercase;
 }
+
+.heroDescription {
+    color: #C3C3C3;
+}

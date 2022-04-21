@@ -4,6 +4,13 @@
     grid-template-rows: [main] 1fr [sub] 8% [end];
 }
 
+@media (max-width: 800px) {
+    .container {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}
+
 .main {
     grid-column-start: second;
     grid-row-start: main;

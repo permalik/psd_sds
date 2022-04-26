@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: [first] 13% [second] 87%;
+    grid-template-columns: [first] 10% [second] 90%;
     grid-template-rows: [main] 1fr [sub] 8% [end];
 }
 

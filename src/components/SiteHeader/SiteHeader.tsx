@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import MenuIcon from '../MenuIcon';
+
 import styles from '../../styles/SiteHeader.module.css';
 
 export function SiteHeader() {
@@ -47,6 +49,7 @@ export function SiteHeader() {
 					width={30}
 				/>
 			</button>
+			<MenuIcon/>
 		</header>
 	);
 };

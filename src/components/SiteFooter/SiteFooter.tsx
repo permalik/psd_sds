@@ -45,9 +45,9 @@ export function SiteFooter() {
 							<img
 								alt={'facebook icon'}
 								className={styles.footerSocialImg}
-								height={50}
+								height={30}
 								src={'https://res.cloudinary.com/permalik/image/upload/v1649965535/icon_facebook.svg'}
-								width={50}
+								width={30}
 							/>
 						</button>
 					</Link>
@@ -56,9 +56,9 @@ export function SiteFooter() {
 							<img
 								alt={'twitter icon'}
 								className={styles.footerSocialImg}
-								height={50}
+								height={30}
 								src={'https://res.cloudinary.com/permalik/image/upload/v1649965536/icon_twitter.svg'}
-								width={50}
+								width={30}
 							/>
 						</button>
 					</Link>
@@ -67,9 +67,9 @@ export function SiteFooter() {
 							<img
 								alt={'instagram icon'}
 								className={styles.footerSocialImg}
-								height={50}
+								height={30}
 								src={'https://res.cloudinary.com/permalik/image/upload/v1649965536/icon_ig.svg'}
-								width={50}
+								width={30}
 							/>
 						</button>
 					</Link>

@@ -61,7 +61,15 @@
 }
 
 @media (max-width: 700px) {
+    .header {
+        justify-content: space-between;
+    }
+
     .navSection {
+        display: none;
+    }
+
+    .searchButton {
         display: none;
     }
 }

@@ -38,8 +38,8 @@ export function SiteFooter() {
 					(c) 2018 <span className={styles.footerCreditName}>name</span>. All rights reserved.
 				</div>
 			</section>
-			<section>
-				<nav>
+			<section className={styles.footerSocial}>
+				<nav className={styles.footerSocialNav}>
 					<Link href={'#'} passHref>
 						<button className={styles.footerSocialButton}>
 							<img

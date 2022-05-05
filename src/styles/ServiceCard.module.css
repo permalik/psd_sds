@@ -4,6 +4,7 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    min-width: 255px;
     padding: 7rem 2rem 2rem;
     position: relative;
     text-align: center;
@@ -30,4 +31,14 @@
 
 .serviceDescription {
     margin: 0 0 2rem;
+}
+
+@media (max-width: 800px) {
+    .serviceCard {
+        margin-bottom: 5rem;
+    }
+
+    .serviceCard:last-of-type {
+        margin-bottom: 0;
+    }
 }

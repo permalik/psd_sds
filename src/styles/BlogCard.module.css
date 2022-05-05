@@ -7,9 +7,19 @@
 
 .blogImg {
     margin-right: 2rem;
-    width: 30rem;
+    min-width: 300px;
+    width: 50%;
 }
 
 .blogTitle {
     text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+    .blogArticle {
+        align-items: flex-start;
+        flex-flow: column nowrap;
+    }
+
+
 }
